@@ -1,0 +1,208 @@
+{
+  "questions": [
+    {
+      "id": "q01",
+      "type": "direct",
+      "split": "dev",
+      "question": "Một tín chỉ tương đương bao nhiêu giờ học tập định mức?",
+      "expected_answer": "50 giờ học tập định mức.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 8,
+      "evidence_quote": "Một tín chỉ được tính tương đương 50 giờ học tập định mức của người học"
+    },
+    {
+      "id": "q02",
+      "type": "paraphrase",
+      "split": "dev",
+      "question": "Học phần bắt buộc được hiểu như thế nào?",
+      "expected_answer": "Là học phần chứa nội dung kiến thức chính yếu của chương trình và sinh viên bắt buộc phải tích lũy.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 8,
+      "evidence_quote": "Học phần bắt buộc: là học phần chứa đựng những nội dung kiến thức chính yếu của mỗi chương trình và bắt buộc sinh viên phải tích luỹ"
+    },
+    {
+      "id": "q03",
+      "type": "direct",
+      "split": "dev",
+      "question": "Ba điểm thành phần của một học phần có trọng số lần lượt là bao nhiêu?",
+      "expected_answer": "Chuyên cần 10%, đánh giá quá trình 40%, thi kết thúc học phần 50%.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 8,
+      "evidence_quote": "Điểm chuyên cần có trọng só 10% đánh giá nhận thức, thái độ và tính chuyên cần; - Điểm đánh giá quá trình có trọng số 40%; - Điểm thi kết thúc học phần có trọng số 50%."
+    },
+    {
+      "id": "q04",
+      "type": "direct",
+      "split": "dev",
+      "question": "Mức điểm thang 10 nào bị xếp loại F?",
+      "expected_answer": "Dưới 4,5 điểm.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 9,
+      "evidence_quote": "Dưới 4,5 F 0,0"
+    },
+    {
+      "id": "q05",
+      "type": "condition",
+      "split": "dev",
+      "question": "Trong hoạt động đào tạo, Nhà trường phải thông báo việc đăng ký học muộn nhất khi nào?",
+      "expected_answer": "Muộn nhất 2 tuần trước thời điểm bắt đầu học kỳ.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 10,
+      "evidence_quote": "nhà trường sẽ thông báo chi tiết phương thức, hình thức và tổ chức cho sinh viên đăng ký học muộn nhất 2 tuần trước thời điểm bắt đầu học kỳ",
+      "filter": {"section": "training"}
+    },
+    {
+      "id": "q06",
+      "type": "direct",
+      "split": "dev",
+      "question": "Số tín chỉ tối đa được đăng ký trong học kỳ chính là bao nhiêu?",
+      "expected_answer": "25 tín chỉ.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 10,
+      "evidence_quote": "Học kỳ chính Số tín chỉ tối thiểu Số tín chỉ tối đa 10 25"
+    },
+    {
+      "id": "q07",
+      "type": "condition",
+      "split": "dev",
+      "question": "Sinh viên được rút bớt học phần trong thời hạn bao lâu kể từ khi học kỳ bắt đầu?",
+      "expected_answer": "Trong 2 tuần với học kỳ chính và 1 tuần với học kỳ phụ.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 11,
+      "evidence_quote": "Việc rút bớt học phần trong khối lượng học tập đã đăng ký được thực hiện trong 02 tuần kể từ học kỳ chính bắt đầu, trong 01 tuần kể từ học kỳ phụ bắt đầu."
+    },
+    {
+      "id": "q08",
+      "type": "exception",
+      "split": "dev",
+      "question": "Điểm học phần sau khi thi lại hoặc thi cải thiện bị giới hạn tối đa ở mức nào?",
+      "expected_answer": "Tối đa mức C+.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 11,
+      "evidence_quote": "Điểm học phần sau khi thi lại, thi cải thiện điểm chỉ giới hạn ở mức điểm C+"
+    },
+    {
+      "id": "q09",
+      "type": "condition",
+      "split": "dev",
+      "question": "Sinh viên được đăng ký học chương trình thứ hai sớm nhất vào thời điểm nào?",
+      "expected_answer": "Khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 11,
+      "evidence_quote": "Sinh viên được đăng ký học chương trình thứ hai sớm nhất khi đã được xếp trình đồ năm thứ hai của chương trình thứ nhất"
+    },
+    {
+      "id": "q10",
+      "type": "paraphrase",
+      "split": "dev",
+      "question": "Điểm trung bình tích lũy toàn khóa tối thiểu phải ở mức nào để được xét tốt nghiệp?",
+      "expected_answer": "Từ mức trung bình trở lên.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 12,
+      "evidence_quote": "Điểm trung bình tích lũy của toàn khóa học đạt từ trung bình trở lên"
+    },
+    {
+      "id": "q11",
+      "type": "exception",
+      "split": "dev",
+      "question": "Khi nào hạng tốt nghiệp xuất sắc hoặc giỏi bị giảm một mức vì học lại?",
+      "expected_answer": "Khi khối lượng học phần phải học lại vượt quá 5% tổng số tín chỉ của toàn chương trình.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 12,
+      "evidence_quote": "Khối lượng của các học phần phải học lại vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương trình"
+    },
+    {
+      "id": "q12",
+      "type": "direct",
+      "split": "dev",
+      "question": "Ba loại chứng chỉ tin học quốc tế nào được chấp nhận để đạt chuẩn đầu ra tin học?",
+      "expected_answer": "MOS, IC3 hoặc ICDL.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 14,
+      "evidence_quote": "phải có 01 (một) trong 03 (ba) chứng chỉ tin học quốc tế MOS, IC3, ICDL để đạt chuẩn đầu ra tin học"
+    },
+    {
+      "id": "q13",
+      "type": "metadata_filter",
+      "split": "dev",
+      "question": "Trong mục quản lý sinh viên, đối tượng nào được giảm 70% học phí?",
+      "expected_answer": "Sinh viên dân tộc thiểu số, không thuộc nhóm dân tộc thiểu số rất ít người, ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 20,
+      "evidence_quote": "Giảm 70% học phí: Sinh viên là người dân tộc thiểu số (không phải là dân tộc thiểu số rất ít người) ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn",
+      "filter": {"section": "student_management"}
+    },
+    {
+      "id": "q14",
+      "type": "condition",
+      "split": "dev",
+      "question": "Một sinh viên được nhận tối đa bao nhiêu học bổng doanh nghiệp?",
+      "expected_answer": "Một học bổng trong một năm học và không quá hai học bổng trong toàn khóa.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 21,
+      "evidence_quote": "Mỗi sinh viên chỉ được thụ hưởng 01 học bổng từ các TCDN trong 01 năm học và không quá 02 học bổng trong toàn khóa học"
+    },
+    {
+      "id": "q15",
+      "type": "direct",
+      "split": "dev",
+      "question": "Mức vay tín dụng tối đa dành cho sinh viên trong sổ tay là bao nhiêu?",
+      "expected_answer": "2.500.000 đồng mỗi tháng cho mỗi sinh viên.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 23,
+      "evidence_quote": "Mức vay tối đa: 2.500.000đ/ tháng/sinh viên"
+    },
+    {
+      "id": "q16",
+      "type": "metadata_filter",
+      "split": "test",
+      "question": "Trong mục công tác phát triển Đảng, kết quả lớp bồi dưỡng nào là điều kiện tiên quyết để được xem xét kết nạp Đảng?",
+      "expected_answer": "Đạt từ loại Đạt yêu cầu trở lên và được cấp giấy chứng nhận học lớp Bồi dưỡng nhận thức về Đảng.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 24,
+      "evidence_quote": "Học viên đạt kết quả từ loại ĐẠT YÊU CẦU trở lên sẽ được cấp GIẤY CHỨNG NHẬN HỌC LỚP Bồi dưỡng nhận thức về Đảng và đủ yêu cầu tiên quyết để có thể được xem xét kết nạp Đảng.",
+      "filter": {"section": "party_and_union"}
+    },
+    {
+      "id": "q17",
+      "type": "metadata_filter",
+      "split": "test",
+      "question": "Trong mục dịch vụ hỗ trợ đào tạo, thư viện mở cửa vào thời gian nào?",
+      "expected_answer": "Thứ Hai đến thứ Sáu từ 07h30 đến 21h30; thứ Bảy theo giờ hành chính.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 28,
+      "evidence_quote": "Thời gian mở cửa: Từ thứ 2 - thứ 6: 07h30 - 21h30 Thứ 7 theo giờ hành chính",
+      "filter": {"section": "support_services"}
+    },
+    {
+      "id": "q18",
+      "type": "exception",
+      "split": "test",
+      "question": "Email NEU có bị thu hồi sau khi sinh viên ra trường không và có ngoại lệ nào?",
+      "expected_answer": "Có; ngoại lệ là sinh viên bảo lưu, chưa ra trường hoặc học song ngành.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 30,
+      "evidence_quote": "Email NEU sẽ được thu hồi sau khi sinh viên ra trường (trừ trường hợp bảo lưu, chưa ra trường, học song ngành)"
+    },
+    {
+      "id": "q19",
+      "type": "paraphrase",
+      "split": "test",
+      "question": "Sinh viên nộp bài lên Turnitin nhằm mục đích gì?",
+      "expected_answer": "Để kiểm tra độ trùng lặp với kho dữ liệu Turnitin.",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 31,
+      "evidence_quote": "Sinh viên sẽ upload bài tập của mình trong các lớp được quy định của giảng viên để kiểm tra độ trùng lặp với kho cơ sở dữ liệu Turnitin"
+    },
+    {
+      "id": "q20",
+      "type": "direct",
+      "split": "test",
+      "question": "Sinh viên truy cập dịch vụ công trực tuyến của trường qua địa chỉ nào?",
+      "expected_answer": "https://onegate.neu.edu.vn",
+      "gold_source_id": "so-tay-sinh-vien",
+      "gold_page": 32,
+      "evidence_quote": "hoặc truy cập đường link : https://onegate.neu.edu.vn"
+    }
+  ]
+}
