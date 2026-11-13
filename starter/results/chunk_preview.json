@@ -1,0 +1,156 @@
+{
+  "A": [
+    {
+      "chunk_id": "so-tay-sinh-vien:p2:fixed:0000:89481202c11d",
+      "document_id": "so-tay-sinh-vien",
+      "source": "starter/data/so-tay-sinh-vien.pdf",
+      "page": 2,
+      "text": "07\n07\n08\n09\n10\n10\n11\n12\n13\n14\nHọc phần và tín chỉ\nĐánh giá học phần\nCách tính điểm thành phần, điểm\nhọc phần\nĐăng ký khối lượng học tập và rút\nbớt học phần đã đăng ký\nHọc lại và học cải thiện điểm\nHọc cùng lúc 02 chương trình\nĐiều kiện xét tốt nghiệp và công\nnhận tốt nghiệp\nChuẩn đầu ra ngoại ngữ\nChuẩn đầu ra tin học\nQuy trình xét miễn học, miễn thi,\nquy đổi điểm và xét chuẩn đầu ra\nngoại ngữ/ tin học\n16\n16\n19\n20\n21\n22\nĐánh giá rèn luyện sinh viên\nQuy định và hướng dẫn nộp học\nphí\nMiễn giảm học",
+      "metadata": {
+        "language": "vi",
+        "document_type": "student_handbook",
+        "extraction_status": "ok",
+        "section": "overview",
+        "chunking": "fixed",
+        "chunk_index": 0
+      }
+    },
+    {
+      "chunk_id": "so-tay-sinh-vien:p2:fixed:0001:5e06bbea68c8",
+      "document_id": "so-tay-sinh-vien",
+      "source": "starter/data/so-tay-sinh-vien.pdf",
+      "page": 2,
+      "text": "n\nQuy định và hướng dẫn nộp học\nphí\nMiễn giảm học phí và hỗ trợ chi\nphí học tập cho sinh viên đại học\nchính quy\nQuy chế xét cấp học bổng cho sinh\nviên đại học chính quy\nBảo hiểm y tế cho sinh viên\nChính sách tín dụng sinh viên\nQuy trình công tác phát triển đảng\ntrong sinh viên\nTiêu chuẩn phân loại Đoàn viên\nLiên Chi hội, Câu lạc bộ, Đội,\nnhóm trực thuộc Hội Sinh viên\nThư viện và tra cứu tài liệu\nĐăng ký mượn giảng đường và các\ntrang thiết bị\nPhần mềm quản lý và hệ thống\nmạng hỗ trợ học tập\nCác d",
+      "metadata": {
+        "language": "vi",
+        "document_type": "student_handbook",
+        "extraction_status": "ok",
+        "section": "overview",
+        "chunking": "fixed",
+        "chunk_index": 1
+      }
+    },
+    {
+      "chunk_id": "so-tay-sinh-vien:p2:fixed:0002:4df6ceea5750",
+      "document_id": "so-tay-sinh-vien",
+      "source": "starter/data/so-tay-sinh-vien.pdf",
+      "page": 2,
+      "text": "mềm quản lý và hệ thống\nmạng hỗ trợ học tập\nCác dịch vụ hành chính cho sinh\nviên\nGi ớ i thi ệ u\n02\n03\n06\nLịch sử hình thành và phát triển\nĐịa chỉ các đơn vị trong trường\nCác trang thông tin của nhà trường\nHo ạ t đ ộ ng đào t ạ o\nNghiên c ứ u khoa h ọ c\n15 Tiêu chí đối với đề tài tham gia\ncuộc thi SVNCKH cấp Trường\nHo ạ t đ ộ ng Qu ả n lý\nsinh viên\n23\n25\n26\nCông tác phát tri ể n đ ả ng\nvà ho ạ t đ ộ ng đoàn\nHo ạ t đ ộ ng và d ị ch v ụ\nh ỗ tr ợ đào t ạ o\n27\n28\n28\n31",
+      "metadata": {
+        "language": "vi",
+        "document_type": "student_handbook",
+        "extraction_status": "ok",
+        "section": "overview",
+        "chunking": "fixed",
+        "chunk_index": 2
+      }
+    },
+    {
+      "chunk_id": "so-tay-sinh-vien:p3:fixed:0000:05764f29f1b2",
+      "document_id": "so-tay-sinh-vien",
+      "source": "starter/data/so-tay-sinh-vien.pdf",
+      "page": 3,
+      "text": "LỊCH SỬ HÌNH THÀNH\nVÀ PHÁT TRIỂN NHÀ TRƯỜNG\nThủ tướng Chính phủ ban hành Nghị định số 678/TTg về việc\nthành lập Trường Kinh tế Tài chính TW (tiền thân của Trường\nĐại học Kinh tế Quốc dân), đặt trong hệ thống Trường Đại học\nNhân dân Việt Nam\nChính phủ ban hành Nghị định số 252/TTg chuyển Trường Đại\nhọc Kinh tế Tài chính TW trực thuộc Bộ Giáo dục\nTrường có tên gọi chính thức là Trường Đại học Kinh tế Tài\nchính\n25/01/1956\n22/05/1958\nTừ 1960 - 11/1964\nTừ năm học\n1964 – 1965\nTrường đổi tên thành Trườ",
+      "metadata": {
+        "language": "vi",
+        "document_type": "student_handbook",
+        "extraction_status": "ok",
+        "section": "overview",
+        "chunking": "fixed",
+        "chunk_index": 0
+      }
+    },
+    {
+      "chunk_id": "so-tay-sinh-vien:p3:fixed:0001:1326486b674a",
+      "document_id": "so-tay-sinh-vien",
+      "source": "starter/data/so-tay-sinh-vien.pdf",
+      "page": 3,
+      "text": "4\nTừ năm học\n1964 – 1965\nTrường đổi tên thành Trường Đại học Kinh tế Kế hoạch theo\nQuyết định số 163/CP ngày 06/11/1964 của Hội đồng Chính\nphủ\n22/10/1985\nTrường đã đưa vào vận hành đồng bộ Nhà trung tâm đào tạo với\ntrang thiết bị tiên tiến đạt tiêu chuẩn quốc tế, hệ thống giảng\nđường, thư viện hiện đại cùng hệ thống dịch vụ hỗ trợ đào tạo,\nnghiên cứu khoa học có chất lượng cao\n2018\nBộ trưởng Bộ ĐH&THCN (Bộ GD&ĐT) ra Quyết định số\n1443/QĐ-KH đổi tên Trường thành Trường Đại học Kinh tế\nQuốc dân, l",
+      "metadata": {
+        "language": "vi",
+        "document_type": "student_handbook",
+        "extraction_status": "ok",
+        "section": "overview",
+        "chunking": "fixed",
+        "chunk_index": 1
+      }
+    }
+  ],
+  "B_and_C": [
+    {
+      "chunk_id": "so-tay-sinh-vien:p2:paragraph:0000:e61f94ab0f6d",
+      "document_id": "so-tay-sinh-vien",
+      "source": "starter/data/so-tay-sinh-vien.pdf",
+      "page": 2,
+      "text": "07\n07\n08\n09\n10\n10\n11\n12\n13\n14\nHọc phần và tín chỉ\nĐánh giá học phần\nCách tính điểm thành phần, điểm\nhọc phần\nĐăng ký khối lượng học tập và rút\nbớt học phần đã đăng ký\nHọc lại và học cải thiện điểm\nHọc cùng lúc 02 chương trình\nĐiều kiện xét tốt nghiệp và công\nnhận tốt nghiệp\nChuẩn đầu ra ngoại ngữ\nChuẩn đầu ra tin học\nQuy trình xét miễn học, miễn thi,\nquy đổi điểm và xét chuẩn đầu ra\nngoại ngữ/ tin học\n16\n16\n19\n20\n21\n22\nĐánh giá rèn luyện sinh viên\nQuy định và hướng dẫn nộp học\nphí\nMiễn giảm học phí và hỗ trợ chi\nphí học tập cho sinh viên đại học\nchính quy\nQuy chế xét cấp học bổng cho sinh\nviên đại học chính quy\nBảo hiểm y tế cho sinh viên\nChính sách tín dụng sinh viên\nQuy trình công tác phát triển đảng\ntrong sinh viên\nTiêu chuẩn phân loại Đoàn viên\nLiên Chi hội, Câu lạc bộ, Đội,\nnhóm trực",
+      "metadata": {
+        "language": "vi",
+        "document_type": "student_handbook",
+        "extraction_status": "ok",
+        "section": "overview",
+        "chunking": "paragraph",
+        "chunk_index": 0
+      }
+    },
+    {
+      "chunk_id": "so-tay-sinh-vien:p2:paragraph:0001:dbfc42d25a55",
+      "document_id": "so-tay-sinh-vien",
+      "source": "starter/data/so-tay-sinh-vien.pdf",
+      "page": 2,
+      "text": "thuộc Hội Sinh viên\nThư viện và tra cứu tài liệu\nĐăng ký mượn giảng đường và các\ntrang thiết bị\nPhần mềm quản lý và hệ thống\nmạng hỗ trợ học tập\nCác dịch vụ hành chính cho sinh\nviên\nGi ớ i thi ệ u\n02\n03\n06\nLịch sử hình thành và phát triển\nĐịa chỉ các đơn vị trong trường\nCác trang thông tin của nhà trường\nHo ạ t đ ộ ng đào t ạ o\nNghiên c ứ u khoa h ọ c\n15 Tiêu chí đối với đề tài tham gia\ncuộc thi SVNCKH cấp Trường\nHo ạ t đ ộ ng Qu ả n lý\nsinh viên\n23\n25\n26\nCông tác phát tri ể n đ ả ng\nvà ho ạ t đ ộ ng đoàn\nHo ạ t đ ộ ng và d ị ch v ụ\nh ỗ tr ợ đào t ạ o\n27\n28\n28\n31",
+      "metadata": {
+        "language": "vi",
+        "document_type": "student_handbook",
+        "extraction_status": "ok",
+        "section": "overview",
+        "chunking": "paragraph",
+        "chunk_index": 1
+      }
+    },
+    {
+      "chunk_id": "so-tay-sinh-vien:p3:paragraph:0000:cf599900bb23",
+      "document_id": "so-tay-sinh-vien",
+      "source": "starter/data/so-tay-sinh-vien.pdf",
+      "page": 3,
+      "text": "LỊCH SỬ HÌNH THÀNH",
+      "metadata": {
+        "language": "vi",
+        "document_type": "student_handbook",
+        "extraction_status": "ok",
+        "section": "overview",
+        "chunking": "paragraph",
+        "chunk_index": 0
+      }
+    },
+    {
+      "chunk_id": "so-tay-sinh-vien:p3:paragraph:0001:c252dccd7f99",
+      "document_id": "so-tay-sinh-vien",
+      "source": "starter/data/so-tay-sinh-vien.pdf",
+      "page": 3,
+      "text": "VÀ PHÁT TRIỂN NHÀ TRƯỜNG\nThủ tướng Chính phủ ban hành Nghị định số 678/TTg về việc\nthành lập Trường Kinh tế Tài chính TW (tiền thân của Trường\nĐại học Kinh tế Quốc dân), đặt trong hệ thống Trường Đại học\nNhân dân Việt Nam\nChính phủ ban hành Nghị định số 252/TTg chuyển Trường Đại\nhọc Kinh tế Tài chính TW trực thuộc Bộ Giáo dục\nTrường có tên gọi chính thức là Trường Đại học Kinh tế Tài\nchính\n25/01/1956\n22/05/1958\nTừ 1960 - 11/1964\nTừ năm học\n1964 – 1965\nTrường đổi tên thành Trường Đại học Kinh tế Kế hoạch theo\nQuyết định số 163/CP ngày 06/11/1964 của Hội đồng Chính\nphủ\n22/10/1985\nTrường đã đưa vào vận hành đồng bộ Nhà trung tâm đào tạo với\ntrang thiết bị tiên tiến đạt tiêu chuẩn quốc tế, hệ thống giảng\nđường, thư viện hiện đại cùng hệ thống dịch vụ hỗ trợ đào tạo,\nnghiên cứu khoa học có chất",
+      "metadata": {
+        "language": "vi",
+        "document_type": "student_handbook",
+        "extraction_status": "ok",
+        "section": "overview",
+        "chunking": "paragraph",
+        "chunk_index": 1
+      }
+    },
+    {
+      "chunk_id": "so-tay-sinh-vien:p3:paragraph:0002:4256e59bc8ff",
+      "document_id": "so-tay-sinh-vien",
+      "source": "starter/data/so-tay-sinh-vien.pdf",
+      "page": 3,
+      "text": "lượng cao\n2018\nBộ trưởng Bộ ĐH&THCN (Bộ GD&ĐT) ra Quyết định số\n1443/QĐ-KH đổi tên Trường thành Trường Đại học Kinh tế\nQuốc dân, là một trong mười sáu trường đại học trọng điểm của\ncả nước\nhttps://neu.edu.vn/",
+      "metadata": {
+        "language": "vi",
+        "document_type": "student_handbook",
+        "extraction_status": "ok",
+        "section": "overview",
+        "chunking": "paragraph",
+        "chunk_index": 2
+      }
+    }
+  ]
+}

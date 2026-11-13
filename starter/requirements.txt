@@ -2,3 +2,6 @@
 psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
+
+# Optional for local embeddings:
+# sentence-transformers (install separately because it is large)

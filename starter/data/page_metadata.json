@@ -1,0 +1,40 @@
+{
+  "defaults": {
+    "language": "vi",
+    "document_type": "student_handbook"
+  },
+  "pages": {
+    "2": {"section": "overview"},
+    "3": {"section": "overview"},
+    "4": {"section": "overview"},
+    "5": {"section": "overview"},
+    "6": {"section": "overview"},
+    "7": {"section": "overview"},
+    "8": {"section": "training"},
+    "9": {"section": "training"},
+    "10": {"section": "training"},
+    "11": {"section": "training"},
+    "12": {"section": "training"},
+    "13": {"section": "training"},
+    "14": {"section": "training"},
+    "15": {"section": "training"},
+    "16": {"section": "research"},
+    "17": {"section": "student_management"},
+    "18": {"section": "student_management"},
+    "19": {"section": "student_management"},
+    "20": {"section": "student_management"},
+    "21": {"section": "student_management"},
+    "22": {"section": "student_management"},
+    "23": {"section": "student_management"},
+    "24": {"section": "party_and_union"},
+    "25": {"section": "party_and_union"},
+    "26": {"section": "party_and_union"},
+    "27": {"section": "party_and_union"},
+    "28": {"section": "support_services"},
+    "29": {"section": "support_services"},
+    "30": {"section": "support_services"},
+    "31": {"section": "support_services"},
+    "32": {"section": "support_services"},
+    "33": {"section": "support_services"}
+  }
+}

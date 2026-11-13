@@ -1,0 +1,45 @@
+{
+  "document_id": "so-tay-sinh-vien",
+  "source": "starter/data/so-tay-sinh-vien.pdf",
+  "physical_pages": 33,
+  "pages_with_extractable_text": 32,
+  "empty_or_unreadable_pages": [
+    1
+  ],
+  "manual_check_required": "Confirm which extracted pages count as useful content.",
+  "strategies": {
+    "A": {
+      "chunking": "fixed_size",
+      "size": 500,
+      "overlap": 50,
+      "chunk_count": 89,
+      "total_characters": 37503,
+      "min_characters": 52,
+      "median_characters": 499,
+      "mean_characters": 421.38,
+      "max_characters": 500
+    },
+    "B": {
+      "chunking": "paragraph",
+      "max_size": 800,
+      "chunk_count": 65,
+      "total_characters": 34822,
+      "min_characters": 18,
+      "median_characters": 575,
+      "mean_characters": 535.72,
+      "max_characters": 800
+    },
+    "C": {
+      "chunking": "paragraph",
+      "max_size": 800,
+      "metadata_filter": true,
+      "chunk_count": 65,
+      "total_characters": 34822,
+      "min_characters": 18,
+      "median_characters": 575,
+      "mean_characters": 535.72,
+      "max_characters": 800
+    }
+  },
+  "extraction_and_chunking_seconds": 5.0137
+}
