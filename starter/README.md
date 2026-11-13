@@ -1,6 +1,6 @@
 # Starter · PostgreSQL + pgvector
 
-Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local; các file trong `src/` là **khung pseudocode có TODO**, chưa đọc tài liệu, tạo embedding, lưu vector hay chạy benchmark. Bạn cần tự hiện thực. Vẫn có thể chọn Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
+Pipeline hoàn chỉnh cho corpus Sổ tay sinh viên: đọc PDF, chia chunk A/B/C, tạo embedding, lưu pgvector, tìm top-3 và tính Hit@1/Evidence Hit@3.
 
 ## Cấu trúc
 
@@ -13,12 +13,12 @@ starter/
 ├── scripts/check_setup.py # kiểm tra kết nối và extension (đã chạy được)
 ├── src/
 │   ├── models.py          # cấu trúc dữ liệu mẫu
-│   ├── ingestion.py       # TODO: đọc / chuẩn hóa tài liệu
-│   ├── chunking.py        # TODO: chia chunk
-│   ├── embeddings.py      # TODO: chọn model API hoặc local
-│   ├── store.py           # TODO: lưu vector, metadata và filter
-│   ├── evaluation.py      # TODO: chấm truy xuất, lưu trace
-│   └── run.py             # TODO: kết nối các bước thành pipeline
+│   ├── ingestion.py       # đọc và chuẩn hóa PDF
+│   ├── chunking.py        # fixed-size và structure-aware chunking
+│   ├── embeddings.py      # Voyage/OpenRouter/OpenAI/Gemini/local
+│   ├── store.py           # lưu vector, metadata và filter
+│   ├── evaluation.py      # chấm retrieval và lưu trace
+│   └── run.py             # CLI chạy toàn pipeline
 ├── data/                  # bạn tự chuẩn bị corpus được phép sử dụng
 └── results/               # lưu kết quả của bạn
 ```
@@ -52,14 +52,41 @@ docker compose -p day6_student_starter stop
 
 ## 2. Chọn embedding model
 
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
+Thí nghiệm đã chạy với Voyage AI. Điền vào `.env` và **không commit API key**:
 
-## 3. Hoàn thiện pipeline
+```env
+VOYAGE_API_KEY=<your-key>
+EMBEDDING_PROVIDER=voyage
+EMBEDDING_MODEL=voyage-4
+EMBEDDING_DIMENSIONS=1024
+EMBEDDING_BATCH_SIZE=16
+EMBEDDING_MIN_REQUEST_INTERVAL=31
+```
 
-1. Đặt corpus vào `data/` hoặc cung cấp manifest/hướng dẫn truy cập. Đọc [GUIDE.md](../GUIDE.md) về **30 trang nội dung**, quyền dữ liệu và metadata.
-2. Hoàn thiện từng hàm TODO trong `src/`. Lưu ID tài liệu, nguồn, trang/vị trí và ít nhất một trường filter có ích.
-3. Xây ít nhất ba cấu hình; ví dụ A fixed-size, B theo đoạn, C như B nhưng có filter. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
-4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
-5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
+Khoảng nghỉ 31 giây phù hợp tài khoản thử nghiệm có rate limit thấp; có thể giảm nếu tài khoản có hạn mức cao hơn. Giữ cùng model và số chiều cho A/B/C.
+
+## 3. Chạy pipeline
+
+Corpus nằm tại `data/so-tay-sinh-vien.pdf`, metadata tại `data/page_metadata.json` và benchmark tại `../benchmark/questions.json`.
+
+Kiểm tra ingestion/chunking mà không gọi API:
+
+```bash
+python -m src.run --prepare-only --page-metadata data/page_metadata.json
+```
+
+Chạy đầy đủ:
+
+```bash
+python -m src.run --page-metadata data/page_metadata.json
+```
+
+Chạy unit test:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+Output chính: `results/ingestion_stats.json`, `results/retrieval_traces.json`, `results/summary.json` và `results/manual_audit.md`. Embedding cache không được commit và có thể tạo lại.
 
 Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.

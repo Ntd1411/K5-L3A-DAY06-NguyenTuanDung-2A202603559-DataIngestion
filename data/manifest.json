@@ -1,0 +1,30 @@
+{
+  "corpus_id": "neu-student-handbook-2021",
+  "documents": [
+    {
+      "source_id": "so-tay-sinh-vien",
+      "title": "Sổ tay sinh viên 2021",
+      "author_from_pdf_metadata": "Hương Nguyễn Thu",
+      "publisher_or_owner": "Trường Đại học Kinh tế Quốc dân",
+      "source_path": "starter/data/so-tay-sinh-vien.pdf",
+      "source_url": "https://neu.edu.vn/Resources/Docs/SubDomain/phongctctqlsv/S%E1%BB%95%20tay%20sinh%20vi%C3%AAn.pdf",
+      "license_or_permission": "Tài liệu được truy cập công khai từ tên miền chính thức neu.edu.vn để phục vụ bài lab giáo dục.",
+      "accessed_at": "2026-11-13",
+      "pdf_creation_date": "2021-08-31T15:27:36+07:00",
+      "sha256": "6786bba2e82fb8cd5972795c0499cebf33e51d534ad7b505586e07430c240348",
+      "source_verification": "Bản tải từ URL chính thức và tệp trong kho mã nguồn trùng khớp hoàn toàn ở cấp byte theo SHA-256 ngày 2026-11-13.",
+      "physical_pages": 33,
+      "counted_content_pages": {
+        "ranges": ["3-21", "23-33"],
+        "count": 30,
+        "normalized_characters": 33213
+      },
+      "excluded_pages": [
+        {"page": 1, "reason": "Không trích xuất được văn bản; trang bìa/ảnh."},
+        {"page": 2, "reason": "Mục lục."},
+        {"page": 22, "reason": "Chỉ có tiêu đề mục, khoảng 90 ký tự."}
+      ],
+      "extraction_note": "pypdf đọc được văn bản ở 32/33 trang; không dùng OCR. Một số bảng/cột và dấu tiếng Việt bị sai thứ tự hoặc tách ký tự."
+    }
+  ]
+}

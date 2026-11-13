@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id;source;page;section;language;document_type",none,voyage-4-1024d,"Cấu hình cơ sở đơn giản nhưng có nguy cơ cắt giữa câu hoặc điều kiện",13/15,14/15,3/5,4/5,"89 chunks; lỗi rõ ở q05 và q16 do bằng chứng bị chia qua ranh giới chunk"
+B,structure_aware_paragraph,800,0,"document_id;source;page;section;language;document_type",none,voyage-4-1024d,"Giữ tiêu đề và dấu đầu dòng dự kiến tăng tính mạch lạc và khả năng truy xuất bằng chứng",15/15,15/15,5/5,5/5,"65 chunks; q17 top-3 vẫn có một chunk overview vì không lọc section"
+C,structure_aware_paragraph,800,0,"document_id;source;page;section;language;document_type",section,voyage-4-1024d,"Giữ kết quả B và tăng mức tuân thủ phạm vi cho câu có bộ lọc",15/15,15/15,5/5,5/5,"65 chunks; chỉ áp dụng bộ lọc khi câu hỏi cung cấp; q16 và q17 test tuân thủ 2/2"
